@@ -27,9 +27,8 @@ const Services = () => {
         </div>
         <div className="w-full h-24 relative block bg-gray-100">
           <p className="text-sky-900 w-full text-2xl font-bold absolute top-0 left-0 indent-12 animation-fadeIn text-justify">
-            Diseñamos interfaces móviles intuitivas y atractivas que cautivan a
-            tus usuarios. Transformamos tus ideas en experiencias digitales
-            inolvidables.
+            Diseñamos aplicaciones móviles intuitivas y atractivas que cautivan a
+            tus usuarios. 
           </p>
         </div>
 
@@ -40,9 +39,7 @@ const Services = () => {
         </div>
         <div className="w-full h-24 relative block bg-gray-100">
           <p className="text-sky-900 w-full text-2xl font-bold absolute top-0 left-0 indent-12 animation-fadeIn">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad optio
-            autem libero recusandae aliquid soluta alias porro laboriosam
-            praesentium consequuntur molestias, atque ipsa, minus at.
+            Creamos experiencias webs unicas y personalizadas que cautivan a tu publico.
           </p>
         </div>
         <div className="w-full h-screen"></div>
