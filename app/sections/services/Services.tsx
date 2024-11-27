@@ -42,7 +42,7 @@ const ServiceItem = ({ title, description, icon: Icon }: ServiceItemProps) => {
 
 export default function ServiceSection() {
   return (
-    <section className="py-16 bg-gradient-to-b from-transparent to-emerald-400 h-auto">
+    <section className="py-16 bg-gradient-to-b from-transparent to-emerald-400 h-screen">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center pb-40 text-sky-900 tracking-widest animation-fadeIn">
           Nuestros Servicios

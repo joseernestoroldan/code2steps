@@ -48,10 +48,25 @@
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(0px);
   }
   to {
     opacity: 1;
-    transform: translateY(-50px);
   }
+}
+
+.animation-fadeInOut{
+  animation-timeline: view(block 10% 40%);
+
+  animation-name: fadeInOut;
+  animation-fill-mode: both;
+  animation-duration: 3s; /* Firefox requires this to apply the animation */
+  animation-timing-function: linear;
+}
+
+@keyframes fadeInOut {
+  0% {opacity: 0;}
+  25% {opacity: 1;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+
 }
