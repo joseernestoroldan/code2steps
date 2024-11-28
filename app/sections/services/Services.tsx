@@ -46,8 +46,8 @@ export default function ServiceSection() {
   return (
     <section className="py-16 bg-gradient-to-b from-transparent to-emerald-400 h-auto">
       <div className="w-full mx-auto">
-        <h2 className="text-4xl font-semibold text-center pb-40 text-sky-900 tracking-widest animation-fadeIn">
-          Nuestros Servicios
+        <h2 className="text-4xl font-semibold text-center pb-40 text-sky-900 tracking-widest animation-fadeIn underline">
+          NUESTROS SERVICIOS
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 animation-fadeIn bg-gray-100">
           {services.map((service, index) => (
