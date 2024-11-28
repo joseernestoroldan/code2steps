@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HomePage = () => {
   return (
-    <div className="h-screen w-full">
+    <div className="h-auto w-full ">
       <div className="relative h-[650px] w-full overflow-hidden bg-gray-100">
         <Image
           src="/Portada.png"
