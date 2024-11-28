@@ -32,7 +32,7 @@ const services = [
 
 const ServiceItem = ({ title, description, icon: Icon }: ServiceItemProps) => {
   return (
-    <div className="flex flex-col items-center text-center p-12 hover:p-16 space-y-8 bg-transparent bg-opacity-50 shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
+    <div className="flex flex-col items-center text-center p-12 hover:p-16 space-y-8 bg-transparent bg-opacity-50 transition-all duration-500 ease-in-out">
       <div className="bg-gradient-to-r from-sky-900  to-emerald-400 text-primary-foreground rounded-full p-3">
         <Icon size={24} />
       </div>
@@ -46,7 +46,7 @@ export default function ServiceSection() {
   return (
     <section className="py-16 bg-gradient-to-b from-transparent to-emerald-400 h-auto">
       <div className="w-full mx-auto">
-        <h2 className="text-4xl font-bold text-center pb-40 text-sky-900 tracking-widest animation-fadeIn">
+        <h2 className="text-4xl font-semibold text-center pb-40 text-sky-900 tracking-widest animation-fadeIn">
           Nuestros Servicios
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 animation-fadeIn bg-gray-100">

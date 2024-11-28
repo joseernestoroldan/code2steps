@@ -18,7 +18,7 @@ const HomePage = () => {
             </div>
             <div className="flex justify-center items-center space-x-2">
               <div className="h-[10px] w-[10px] rounded-full bg-sky-900"></div>
-              <h1 className="text-4xl font-bold text-sky-900 ">
+              <h1 className="text-5xl font-bold text-sky-900 ">
                 <span className="text-sky-900 mb-4 text-center tracking-widest">
                   Code2Steps
                 </span>
