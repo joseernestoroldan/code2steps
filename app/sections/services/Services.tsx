@@ -45,11 +45,11 @@ const ServiceItem = ({ title, description, icon: Icon }: ServiceItemProps) => {
 export default function ServiceSection() {
   return (
     <section className="py-16 bg-gradient-to-b from-transparent to-emerald-400 h-auto">
-      <div className="w-full mx-auto flex flex-col justify-center items-center bg-gray-100">
-        <h2 className="text-3xl font-semibold text-center text-sky-900 tracking-widest animation-fadeIn pt-12">
+      <div className="w-full mx-auto flex flex-col justify-center items-center">
+        <h2 className="text-3xl font-semibold text-center text-sky-900 tracking-widest animation-fadeIn pt-12 pb-20">
           NUESTROS SERVICIOS
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 animation-fadeIn">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 animation-fadeIn bg-gray-100 bg-opacity-45">
           {services.map((service, index) => (
             <ServiceItem
               key={index}
