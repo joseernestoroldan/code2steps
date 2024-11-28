@@ -37,7 +37,7 @@
 }
 
 .animation-fadeIn {
-  animation-timeline: view(block 50% 10%);
+  animation-timeline: view(block 70% 10%);
 
   animation-name: fadeIn;
   animation-fill-mode: both;
@@ -55,7 +55,7 @@
 }
 
 .animation-fadeInOut{
-  animation-timeline: view(block 10% 40%);
+  animation-timeline: view(block 10% 30%);
 
   animation-name: fadeInOut;
   animation-fill-mode: both;

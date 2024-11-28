@@ -1,5 +1,7 @@
-import { Smartphone, Globe, PenTool } from "lucide-react";
+import { Smartphone, LayoutTemplate, Pen } from "lucide-react";
 import { type LucideIcon } from "lucide-react";
+
+
 
 type ServiceItemProps = {
   title: string;
@@ -12,7 +14,7 @@ const services = [
     title: "Diseño Grafico",
     description:
       "Eleve su marca con imágenes impactantes. Nuestros diseñadores expertos crean logotipos, materiales de marketing e identidades de marca llamativos que dejan una impresión duradera.",
-    icon: PenTool,
+    icon: Pen,
   },
   {
     title: "Aplicaciones móviles",
@@ -24,30 +26,30 @@ const services = [
     title: "Desarrollo Web",
     description:
       "Cree su presencia digital con soluciones web de vanguardia. Nuestro equipo crea sitios web y aplicaciones web responsivos y de carga rápida adaptados a sus necesidades.",
-    icon: Globe,
+    icon: LayoutTemplate,
   },
 ];
 
 const ServiceItem = ({ title, description, icon: Icon }: ServiceItemProps) => {
   return (
-    <div className="flex flex-col items-center text-center p-6 bg-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
-      <div className="bg-gradient-to-r from-sky-900 to-emerald-400 text-primary-foreground rounded-full p-3 mb-4 ">
+    <div className="flex flex-col items-center text-center p-12 hover:p-16 space-y-8 bg-gray-100 bg-opacity-50 rounded-lg shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
+      <div className="bg-gradient-to-r from-sky-900  to-emerald-400 text-primary-foreground rounded-full p-3">
         <Icon size={24} />
       </div>
-      <h3 className="text-xl font-semibold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-sky-900 to-emerald-400">{title}</h3>
-      <p className="text-sky-900 mb-4">{description}</p>
+      <h3 className="text-xl font-semibold mb-2 text-sky-900">{title}</h3>
+      <p className="text-sky-900 mb-4 font-semibold">{description}</p>
     </div>
   );
 };
 
 export default function ServiceSection() {
   return (
-    <section className="py-16 bg-gradient-to-b from-transparent to-emerald-400 h-screen">
+    <section className="py-16 bg-gradient-to-b from-transparent to-emerald-400 h-auto">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center pb-40 text-sky-900 tracking-widest animation-fadeIn">
           Nuestros Servicios
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animation-fadeIn">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 animation-fadeIn">
           {services.map((service, index) => (
             <ServiceItem
               key={index}
