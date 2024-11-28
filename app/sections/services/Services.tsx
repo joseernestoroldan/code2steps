@@ -32,7 +32,7 @@ const services = [
 
 const ServiceItem = ({ title, description, icon: Icon }: ServiceItemProps) => {
   return (
-    <div className="flex flex-col items-center text-center p-12 hover:p-16 space-y-8 bg-transparent bg-opacity-50 transition-all duration-500 ease-in-out">
+    <div className="flex flex-col items-center text-center p-16 space-y-8 bg-transparent bg-opacity-50 transition-all duration-500 ease-in-out">
       <div className="bg-gradient-to-r from-sky-900  to-emerald-400 text-primary-foreground rounded-full p-3">
         <Icon size={24} />
       </div>
