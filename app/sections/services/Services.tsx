@@ -49,7 +49,7 @@ export default function ServiceSection() {
         <h2 className="text-3xl font-semibold text-center text-sky-900 tracking-widest animation-fadeIn pt-12 pb-20">
           NUESTROS SERVICIOS
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 animation-fadeIn bg-gray-100 bg-opacity-45">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 animation-fadeIn bg-gray-100">
           {services.map((service, index) => (
             <ServiceItem
               key={index}
